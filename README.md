@@ -78,5 +78,10 @@ greetings(10);
 <br>
 **Test:** "It should check if each number in the list includes a 1, 2 or 3 and return replacement words"  
 **Code:**  
-grettings(14);
-*Expected Output:** 0, "Beep!", "Boop!", "Will you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep", "Boop!", "Will you be my neighbor?", "Beep!"
+greetings(14);
+*Expected Output:** 0, "Beep!", "Boop!", "Will you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep", "Boop!", "Will you be my neighbor?", "Beep!"  
+<br>
+**Test:** "It should take in the name of the user and add it to "Will you be my neighbor?" response"  
+**Code:**  
+greetings(14, Patrick);  
+**Expected Output:** "0 Beep! Boop! Will you be my neighbor, Patrick? 4 5 6 7 8 9 Beep! Beep Boop! Will you be my neighbor, Patrick? Beep!
