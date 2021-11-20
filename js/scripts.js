@@ -1,6 +1,5 @@
 // Business Logic
 function greetings(number, countUpOrDown, userName) {
-  number = parseInt(number);
   let userNumber = [];
   if (countUpOrDown === 1) {
     userNumber = countDown(number);
@@ -49,6 +48,8 @@ $(document).ready(function() {
     let countUpOrDown = parseInt($("input:radio[name=countUpOrDown]:checked").val());
     let roboResponse = greetings(userInput, countUpOrDown, userName);
     $("#robogersReply").html(roboResponse);
-    $("#robogersBox").show();
+    if (!isNaN(userInput)){
+      $("#robogersBox").show();
+    }
   });
 });
