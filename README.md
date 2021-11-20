@@ -4,6 +4,10 @@
 
 #### _A program that takes a number and returns Mr. Robogers response._
 
+## Github Pages Link
+
+[Github Pages](https://patrick-dolan.github.io/mr-robogers-neighborhood/)
+
 ## Technologies Used
 
 * _HTML & CSS_
@@ -33,6 +37,25 @@ _dolanp1992@gmail.com_
 _MIT_
 
 Copyright (c) _2021_ _Patrick Dolan_  
+
+## Notes  
+
+Page needs to take number from user and show numbers from 0 to the number replacing numbers based on if they include 1, 2, or 3.
+
+1 = "Beep!"
+2 = "Boop!"
+3 = "Won't you be my neighbor?"
+
+The importance of respone is 3 then 2 then 1
+
+example: 
+12 would be "Wont you be my neighbor?" 
+21 would be "Boop" and 
+32 would be "Wont you be my neighbor?"
+
+User should be able to enter a new number and see new result over and over again.
+
+Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
 
 ## Specs  
 
