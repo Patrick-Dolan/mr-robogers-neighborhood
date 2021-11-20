@@ -32,6 +32,14 @@ function countDown(number) {
   }
   return userNumber;
 }
+function countUp(number){
+  number = parseInt(number);
+  const userNumber = [];
+  for (let i = 0; i <= number; i++) {
+    userNumber.push(i);
+  }
+  return userNumber;
+}
 // UI Logic
 $(document).ready(function() {
   $("form#roboForm").submit(function(event){

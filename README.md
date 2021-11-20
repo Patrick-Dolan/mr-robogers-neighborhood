@@ -99,4 +99,4 @@ countDown(5);
 **Test:** "It should take user inputted number and return an array starting from 0 and counting up to it"  
 **Code:**  
 countDown(5);  
-**Expected Output:** 5, 4, 3, 2, 1, 0  
+**Expected Output:** 0, 1, 2, 3, 4, 5
