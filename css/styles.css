@@ -7,3 +7,6 @@ button {
 #robogersBox {
   display: none;
 }
+button {
+  margin-top: 1em;
+}
