@@ -1,5 +1,7 @@
 function greetings(number) {
   const userNumber = [];
-  userNumber.push(number);
+  for (let i = 0; i <= number; i++) {
+    userNumber.push(i);
+  }
   return userNumber;
 }
