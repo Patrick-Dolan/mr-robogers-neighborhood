@@ -84,4 +84,11 @@ greetings(14);
 **Test:** "It should take in the name of the user and add it to "Will you be my neighbor?" response"  
 **Code:**  
 greetings(14, Patrick);  
-**Expected Output:** "0 Beep! Boop! Will you be my neighbor, Patrick? 4 5 6 7 8 9 Beep! Beep Boop! Will you be my neighbor, Patrick? Beep!
+**Expected Output:** "0 Beep! Boop! Will you be my neighbor, Patrick? 4 5 6 7 8 9 Beep! Beep Boop! Will you be my neighbor, Patrick? Beep!  
+<br>
+**describe countDown()**  
+<br>
+**Test:** "It should take userInput and return an array starting from that number counting down to zero"  
+**Code:**  
+countDown(5);  
+**Expected Output:** 5, 4, 3, 2, 1, 0  
