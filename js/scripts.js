@@ -17,7 +17,7 @@ function greetings(number) {
       return element;
     }
   });
-  return roboReply;
+  return roboReply.join(" ");
 }
 // UI Logic
 $(document).ready(function() {
