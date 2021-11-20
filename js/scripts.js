@@ -24,6 +24,14 @@ function greetings(number, name) {
   });
   return roboReply.join(" ");
 }
+function countDown(number) {
+  number = parseInt(number);
+  const userNumber = [];
+  for (let i = number; i >= 0; i--) {
+    userNumber.push(i);
+  }
+  return userNumber;
+}
 // UI Logic
 $(document).ready(function() {
   $("form#roboForm").submit(function(event){
