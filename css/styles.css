@@ -4,3 +4,6 @@ button {
 .jumbotron h1 {
   text-align: center;
 }
+#robogersBox {
+  display: none;
+}

@@ -32,5 +32,6 @@ $(document).ready(function() {
     let userName = $("#userName").val();
     let roboResponse = greetings(userInput, userName);
     $("#robogersReply").html(roboResponse);
+    $("#robogersBox").show();
   });
 });
