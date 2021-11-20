@@ -64,4 +64,10 @@ Example: If a user inputs a 5, the program should display a list of values: "0",
 **Test:** "It should return an array with 0 if the number 0 is inputted"
 **Code:**  
 greetings(0);
-**Expected Output:** 0
+**Expected Output:** 0  
+<br>
+**Test:** "It should return an array that lists all numbers leading up to the inputted number starting at 0"  
+**Code:**  
+greetings(5);
+**Expected Output:** 0, 1, 2, 3, 4, 5  
+<br>
