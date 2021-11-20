@@ -59,3 +59,9 @@ Example: If a user inputs a 5, the program should display a list of values: "0",
 
 ## Specs  
 
+**describe greeting()**  
+<br>
+**Test:** "It should return an array with 0 if the number 0 is inputted"
+**Code:**  
+greeting(0);
+**Expected Output:** 0
