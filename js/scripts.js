@@ -13,7 +13,7 @@ function greetings(number, countUpOrDown, userName) {
         return "Will you be my neighbor?";
       }
       else {
-        return "Will you be my neighbor, " + userName + "?";
+        return "Will you be my neighbor, " + userName.trim() + "?";
       }
     } else if (/2/g.test(element)) {
       return "Boop!";
