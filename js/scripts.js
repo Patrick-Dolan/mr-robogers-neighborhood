@@ -1,5 +1,5 @@
 // Business Logic
-function greetings(number) {
+function greetings(number, name) {
   number = parseInt(number);
   const userNumber = [];
   for (let i = 0; i <= number; i++) {
@@ -8,7 +8,12 @@ function greetings(number) {
   const roboReply = userNumber.map(function(element) {
     //let arrayItem = element.toString();
     if (/3/g.test(element)) {
-      return "Will you be my neighbor?";
+      if (name === "") {
+        return "Will you be my neighbor?";
+      }
+      else {
+        return "Will you be my neighbor, " + name + "?";
+      }
     } else if (/2/g.test(element)) {
       return "Boop!";
     } else if (/1/g.test(element)) {
@@ -24,7 +29,8 @@ $(document).ready(function() {
   $("form#roboForm").submit(function(event){
     event.preventDefault();
     let userInput = parseInt($("#userNumber").val());
-    let roboResponse = greetings(userInput);
+    let userName = $("#userName").val();
+    let roboResponse = greetings(userInput, userName);
     $("#robogersReply").html(roboResponse);
   });
 });
