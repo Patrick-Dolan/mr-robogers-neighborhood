@@ -1,3 +1,4 @@
+// Business Logic
 function greetings(number) {
   number = parseInt(number);
   const userNumber = [];
