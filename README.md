@@ -16,7 +16,7 @@
 
 ## Description
 
-_This is a program that will take a number and output Mr. Robogers version of counting up to, or down from, that number based on a radio button choice. If you choose to give Mr. Robogers your name it will add that to his response as well. _
+_This is a program that will take a number and output Mr. Robogers version of counting up to, or down from, that number based on a radio button choice. If you choose to give Mr. Robogers your name it will add that to his response as well._
 
 ## Setup/Installation Requirements
 
