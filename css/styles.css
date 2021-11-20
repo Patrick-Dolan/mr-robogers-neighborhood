@@ -1,3 +1,9 @@
 img {
   max-width: 30%;
 }
+button {
+  margin-bottom: 1em;
+}
+.jumbotron h1 {
+  text-align: center;
+}
