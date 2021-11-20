@@ -4,10 +4,8 @@ function greetings(number, countUpOrDown, userName) {
   let userNumber = [];
   if (countUpOrDown === 1) {
     userNumber = countDown(number);
-    console.log(userNumber);
   } else {
     userNumber = countUp(number);
-    console.log(userNumber);
   }
   const roboReply = userNumber.map(function(element) {
     //let arrayItem = element.toString();
@@ -48,7 +46,7 @@ $(document).ready(function() {
     event.preventDefault();
     let userInput = parseInt($("#userNumber").val());
     let userName = $("#userName").val();
-    let countUpOrDown = parseInt($("input:radio[countUpOrDown]:checked").val());
+    let countUpOrDown = parseInt($("input:radio[name=countUpOrDown]:checked").val());
     let roboResponse = greetings(userInput, countUpOrDown, userName);
     $("#robogersReply").html(roboResponse);
     $("#robogersBox").show();
