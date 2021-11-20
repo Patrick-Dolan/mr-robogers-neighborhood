@@ -16,7 +16,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is a program that will take a number and output Mr. Robogers version of counting up to, or down from, that number based on a radio button choice. If you choose to give Mr. Robogers your name it will add that to his response as well. _
 
 ## Setup/Installation Requirements
 
@@ -37,25 +37,6 @@ _dolanp1992@gmail.com_
 _MIT_
 
 Copyright (c) _2021_ _Patrick Dolan_  
-
-## Notes  
-
-Page needs to take number from user and show numbers from 0 to the number replacing numbers based on if they include 1, 2, or 3.
-
-1 = "Beep!"
-2 = "Boop!"
-3 = "Won't you be my neighbor?"
-
-The importance of respone is 3 then 2 then 1
-
-example: 
-12 would be "Wont you be my neighbor?" 
-21 would be "Boop" and 
-32 would be "Wont you be my neighbor?"
-
-User should be able to enter a new number and see new result over and over again.
-
-Example: If a user inputs a 5, the program should display a list of values: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
 
 ## Specs  
 
