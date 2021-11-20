@@ -71,3 +71,8 @@ greetings(0);
 greetings(5);
 **Expected Output:** 0, 1, 2, 3, 4, 5  
 <br>
+**Test:** "It should check each number in the list made up of the users number for 1's and replace them with "Beep!", 2's and replace them with "Boop!", and 3's and replace them with "Will you be my neighbor?""  
+**Code:**  
+greetings(10);  
+**Expected Output:** "0, Beep!, "Boop!", "Will you be my neighbor?", 4, 5,"  
+<br>
