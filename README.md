@@ -86,9 +86,17 @@ greetings(14);
 greetings(14, Patrick);  
 **Expected Output:** "0 Beep! Boop! Will you be my neighbor, Patrick? 4 5 6 7 8 9 Beep! Beep Boop! Will you be my neighbor, Patrick? Beep!  
 <br>
+<br>
 **describe countDown()**  
 <br>
-**Test:** "It should take userInput and return an array starting from that number counting down to zero"  
+**Test:** "It should take a user inputted number and return an array starting from that number counting down to zero"  
+**Code:**  
+countDown(5);  
+**Expected Output:** 5, 4, 3, 2, 1, 0  
+<br>
+<br>
+**describe countUp()**
+**Test:** "It should take user inputted number and return an array starting from 0 and counting up to it"  
 **Code:**  
 countDown(5);  
 **Expected Output:** 5, 4, 3, 2, 1, 0  
