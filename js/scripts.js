@@ -19,3 +19,12 @@ function greetings(number) {
   });
   return roboReply;
 }
+// UI Logic
+$(document).ready(function() {
+  $("form#roboForm").submit(function(event){
+    event.preventDefault();
+    let userInput = parseInt($("#userNumber").val());
+    let roboResponse = greetings(userInput);
+    $("#robogersReply").html(roboResponse);
+  });
+});
